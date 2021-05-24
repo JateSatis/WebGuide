@@ -1,0 +1,52 @@
+.code_container_html {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	background-color: #f5f2f0;
+}
+
+.counter {
+	color: #999;
+	font-weight: 500;
+	background-color: #e7e5e3;
+	height: 36px;
+	width: 56px;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.code_html {
+	padding-left: 20px;
+}
+
+.html_tag {
+	color: #C90438;
+}
+
+.html_class {
+	color: #ff9d00;
+}
+
+.html_string {
+	color: #94A60A;
+}
+
+.html_id {
+	color: rgb(96, 94, 223);
+}
+
+.html_comment {
+	color: #708090;
+}
+
+.code_container_multiple {
+	display: flex;
+	flex-direction: column;
+	background-color: #f5f2f0;
+}
+
+.code_container_multiple > div {
+	display: flex;
+	align-items: center;
+}

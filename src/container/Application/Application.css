@@ -1,0 +1,54 @@
+.suggestion div {
+	display: flex;
+	align-items: flex-start;
+	margin: 0px 20px;
+	padding: 10px 10px;
+}
+
+.suggestion_first {
+	height: 100%;
+	border-bottom: 3px solid #929292;
+}
+
+.suggestion_first_only {
+	border-bottom: none;
+}
+
+.suggestion_first_only div {
+	background-color: #db866c;
+	border-radius: 10px;
+}
+
+.suggestion_first div {
+	background-color: #db866c;
+	border-radius: 10px;
+}
+
+.suggestion_section:hover {
+	text-decoration: underline;
+}
+
+.suggestion_link {
+	font-size: 25px;
+	color: white;
+	cursor: default;
+}
+
+.suggestion_link_first {
+	color: white;
+}
+
+.suggestion:not(:last-child) {
+	border-bottom: 3px solid #929292;
+}
+
+.suggestion div:hover {
+	background-color: #db866c;
+	border-radius: 10px;
+}
+
+#search {
+	display: none;
+	color: #6d474700;
+}
+

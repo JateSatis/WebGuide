@@ -1,0 +1,299 @@
+.main {
+	display: flex;
+}
+
+.content_info p {
+	color: #272E38;
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+
+.aside_container {
+	width: min-content;
+	background-color: #ffd8a886;
+}
+
+.aside_sticky {
+	display: flex;
+	position: sticky;
+	padding-top: 20px;
+	top: 0;
+}
+
+.aside {
+	width: 150px;
+	margin-top: 5px;
+	padding-left: 20px;
+}
+
+.aside_section_heading {
+	font-weight: 500;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.aside_section_link {
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: #9b9b9b;
+}
+
+.aside_section_link:hover {
+	text-decoration: underline;
+}
+
+.aside_navigation {
+	display: flex;
+	flex-direction: column;
+}
+
+.aside_navigation_heading {
+	font-weight: 500;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.aside_navigation_link {
+	cursor: pointer;
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #9b9b9b;
+}
+
+.btns {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 70px;
+}
+
+.btns_helper_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 120px;
+}
+
+.menu_btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	background-color: transparent;
+}
+
+.menu_btn:hover {
+	background-color: #ffd8a8ad;
+}
+
+.menu_svg {
+	height: 25px;
+	fill: #656668;
+}
+
+.map_btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	background-color: transparent;
+}
+
+.map_btn:hover {
+	background-color: #ffd8a8ad;
+}
+
+.map_svg {
+	height: 25px;
+	fill: #656668;
+}
+
+.course_switch_container_slim {
+	position: fixed;
+	top: 50%;
+	display: flex;
+	align-items: center;
+	left: 150px;
+}
+
+.course_switch_container {
+	position: fixed;
+	top: 50%;
+	left: 0;
+	display: flex;
+	align-items: center;
+}
+
+.course_switch_btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	width: 70px;
+	background-color: transparent;
+}
+
+.course_switch_btn:hover {
+	background-color: #ffd8a8ad;
+}
+
+.course_switch_svg {
+	height: 25px;
+	fill: #656668;
+}
+
+.content_fat	{
+	padding: 0px 150px 0px 80px;
+}
+
+.content_slim	{
+	padding: 0px 120px 0px 50px;
+}
+
+.navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: max-content;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.navigation_home_button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: transparent;
+}
+
+.navigation_home_svg {
+	fill: #9b9b9b;
+}
+
+.navigation_home_svg:hover {
+	fill: #cb4757;
+}
+
+.navigation_section_link {
+		font-weight: 500;
+	color: #9b9b9b;
+}
+
+.navigation_section_link:hover {
+	color: #cb4757;
+	text-decoration: underline;
+}
+
+.navigation_course {
+	color: #9b9b9b;
+}
+
+.arrow {
+	color: #9b9b9b;
+	margin: 0px 10px;
+}
+
+.main_heading {
+	font-weight: 700;
+	font-size: 32px;
+	color: #272E38;
+	margin-bottom: 30px;
+}
+
+.main_heading_text {
+	margin-bottom: 10px;
+}
+
+.chapter_title {
+	color: #272E38;
+	font-weight: 700;
+	font-size: 23px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+.chapter_list li {
+	color: #272E38;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	list-style-type: disc;
+}
+
+.chapter_list li:last-of-type {
+	margin-bottom: 25px;
+}
+
+.chapter_code {
+	margin-bottom: 25px;
+	padding: 10px 10px;
+	background-color: #ffd8a886;
+}
+
+.chapter_img_container {
+	padding: 10px;
+	background-color: #ffd8a886;
+	margin-bottom: 25px;
+}
+
+.chapter_img {
+	width: 100%;
+}
+
+.chapter_table p {
+	padding: 0;
+}
+
+.chapter_table_container {
+	padding: 10px;
+	background-color: #ffd8a886;
+	margin-bottom: 25px;
+}
+
+.chapter_table {
+	width: 100%;
+	border: 1px solid #9b9b9b;
+	border-spacing: 0px;
+}
+
+.chapter_table th {
+	text-align: left;
+	background-color: #e7e5e3;
+	border-bottom: 2px solid #272e3867;
+	padding: 10px 10px;
+}
+
+.chapter_table td {
+	text-align: left;
+	background-color: #f5f2f0;
+	border-bottom: 1.5px solid #9b9b9b85;
+	vertical-align: middle;
+	padding: 20px 10px 10px 10px;
+}
+
+.chapter_table td:first-of-type p {
+	text-align: left;
+	width: max-content;
+	background-color: #fff;
+	padding: 5px 5px;
+	border-radius: 5px;
+}
+
+.chapter_summary_list li {
+	color: #272E38;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+.chapter_summary_list li:last-of-type {
+	margin-bottom: 25px;
+}
+
+.switch_course_next {
+	position: fixed;
+	top: 50%;
+	right: 0;
+}
