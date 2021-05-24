@@ -62,4 +62,11 @@
 
 .section_course_link:visited {
 	color: #660099;
+} 
+
+@media (max-width: 950px) {
+	.section_courses_list {
+		display: flex;
+		flex-direction: column;
+	}
 }

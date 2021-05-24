@@ -10,7 +10,7 @@ const Section = styled.div`
 	align-items: center;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-`
+` 
 
 const Div = styled.div`
 	&:hover ${Section} {
@@ -41,7 +41,7 @@ const Nav = ({ inputCleared, info }) => {
 
 	return (
 		<>
-			{/* <div className={classes.container_phone} onClick={() => setIsNavOpened(!isNavOpened)}>
+			<div className={classes.container_phone} onClick={() => setIsNavOpened(!isNavOpened)}>
 					<svg width='30px' height='30px' x="0px" y="0px" viewBox="0 0 384 384">
 						<g>
 							<rect x="0" y="277.333" width="384" height="42.667" />
@@ -49,7 +49,7 @@ const Nav = ({ inputCleared, info }) => {
 							<rect x="0" y="64" width="384" height="42.667" />
 						</g>
 					</svg>
-			</div> */}
+			</div>
 			<div className={classes.container}>
 				<nav className={classes.nav}>
 					{info.map(item =>
@@ -62,7 +62,7 @@ const Nav = ({ inputCleared, info }) => {
 											<NavLink to={course.link} activeClassName={classes.active_course} exact>
 												<p onClick={() => { setActive([false, false, false, false, false]) }}>{course.name}</p>
 											</NavLink>)}
-									</div>
+									</div> 
 									:
 									null
 								}

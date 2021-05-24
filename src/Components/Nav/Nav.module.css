@@ -80,18 +80,25 @@
 .container_phone {
 	display: none;
 	align-self: center;
+	margin-right: 100px;
 }
 
 .container_phone svg g rect {
 	fill: #656668;
 }
 
-/* @media (max-width: 900px) {
-	.nav {
+@media (max-width: 900px) {
+	.container {
 		display: none;
 	}
 
 	.container_phone {
 		display: inline-block;
 	}
-} */
+}
+
+@media (max-width: 400px) {
+	.container_phone {
+		margin-right: 20px;
+	}
+}
