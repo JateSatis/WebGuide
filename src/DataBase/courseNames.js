@@ -981,56 +981,56 @@ const courseNames = [
 		}
 		]
 	},
-	// {
-	// 	section: `React`,
-	// 	link: `/react`,
-	// 	courses: [{
-	// 		name: `Компоненты`,
-	// 		link: `/react/components`
-	// 	},
-	// 	{
-	// 		name: `Свойства (props)`,
-	// 		link: `/react/props`
-	// 	},
-	// 	{
-	// 		name: `Состояние (state)`,
-	// 		link: `/react/state`
-	// 	},
-	// 	{
-	// 		name: `Условия`,
-	// 		link: `/react/conditions`
-	// 	},
-	// 	{
-	// 		name: `Списки`,
-	// 		link: `/react/lists`
-	// 	}
-	// 	]
-	// },
-	// {
-	// 	section: `Frameworks`,
-	// 	link: `/frameworks`,
-	// 	courses: [{
-	// 		name: `Препроцессоры`,
-	// 		link: `/frameworks/tags`
-	// 	},
-	// 	{
-	// 		name: `UI Библиотеки`,
-	// 		link: `/frameworks/ui-themes`
-	// 	},
-	// 	{
-	// 		name: `"State" менеджер Redux`,
-	// 		link: `/frameworks/redux`
-	// 	},
-	// 	{
-	// 		name: `Плагин Emmet`,
-	// 		link: `/frameworks/emmet`
-	// 	},
-	// 	{
-	// 		name: `Управление версиями Git`,
-	// 		link: `/frameworks/git`
-	// 	}
-	// 	]
-	// }
+	{
+		section: `React`,
+		link: `/react`,
+		courses: [{
+			name: `Компоненты`,
+			link: `/react/components`
+		},
+		{
+			name: `Свойства (props)`,
+			link: `/react/props`
+		},
+		{
+			name: `Состояние (state)`,
+			link: `/react/state`
+		},
+		{
+			name: `Условия`,
+			link: `/react/conditions`
+		},
+		{
+			name: `Списки`,
+			link: `/react/lists`
+		}
+		]
+	},
+	{
+		section: `Frameworks`,
+		link: `/frameworks`,
+		courses: [{
+			name: `Препроцессоры`,
+			link: `/frameworks/tags`
+		},
+		{
+			name: `UI Библиотеки`,
+			link: `/frameworks/ui-themes`
+		},
+		{
+			name: `"State" менеджер Redux`,
+			link: `/frameworks/redux`
+		},
+		{
+			name: `Плагин Emmet`,
+			link: `/frameworks/emmet`
+		},
+		{
+			name: `Управление версиями Git`,
+			link: `/frameworks/git`
+		}
+		]
+	}
 ]
 
 export default courseNames
